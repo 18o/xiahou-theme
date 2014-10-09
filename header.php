@@ -51,13 +51,13 @@
 		              		<nav class="cover-navigation navigation--social">
 		                		<ul class="navigation">
 		                			<li class="navigation__item">
-		                  				<a href="http://weibo.com/1732722751" title="@夏侯仲达" target="_blank">
+		                  				<a href="#" title="@白龙" target="_blank">
 		                    				<i class='social fa fa-weibo'></i>
 		                    				<span class="label">Weibo</span>
 		                  				</a>
 		                			</li>
 					                <li class="navigation__item">
-					                  	<a href="https://github.com/xia-hou" title="Github" target="_blank">
+					                  	<a href="#" title="Github" target="_blank">
 					                    	<i class='social fa fa-github'></i>
 					                    	<span class="label">Github</span>
 					                  	</a>
@@ -72,7 +72,7 @@
 					                </li>-->
 
 					                <li class="navigation__item">
-					                  	<a href="http://twitter.com/tzllangzi" title="@夏侯" target="_blank">
+					                  	<a href="#" title="@白龙" target="_blank">
 						                    <i class='social fa fa-twitter'></i>
 						                    <span class="label">Twitter</span>
 					                  	</a>
@@ -88,7 +88,7 @@
 					              
 					                <!-- Email -->
 					                <li class="navigation__item">
-					                  	<a href="mailto:admin@iios.net" title="邮件联系我">
+					                  	<a href="#" title="邮件联系我">
 						                    <i class='social fa fa-envelope'></i>
 						                    <span class="label">Email</span>
 					                  	</a>
