@@ -23,7 +23,7 @@
 		            <h1 class="panel-cover__title panel-title">
 		            	<a href="/" title="link to homepage for <?php $this->options->title(); ?>"><?php $this->options->title(); ?></a>
 		            </h1>
-            		<span class="panel-cover__subtitle panel-subtitle">一沙一世界，一花一天堂</span>
+            		<span class="panel-cover__subtitle panel-subtitle"></span>
             		<hr class="panel-cover__divider" />
             		<p class="panel-cover__description"><?php $this->options->description() ?></p>
             		<hr class="panel-cover__divider panel-cover__divider--secondary" />
