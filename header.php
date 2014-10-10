@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title><?php $this->options->title(); ?></title> 
+    <title><?php if($this->is('post') || $this->is('page') || $this->is('post')){$this->title();echo "-";} ?><?php $this->options->title(); ?></title> 
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/vno.css'); ?>" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/tomorrow.css'); ?>">
@@ -80,7 +80,7 @@
 					                
 					                <!-- RSS -->
 					                <li class="navigation__item">
-					                  	<a href="#" title="RSS" target="_blank">
+					                  	<a href="#" title="RSS">
 						                    <i class='social fa fa-rss'></i>
 						                    <span class="label">RSS</span>
 					                  	</a>
