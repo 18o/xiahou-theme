@@ -2,7 +2,7 @@
     <span class="footer__copyright">&copy; 2014  All rights reserved. </span>
     
     <span class="footer__copyright">友情链接- 
-    	<a target="_blank" href="http://iios.net/">夏侯</a>
+    	<a target="_blank" href="http://www.bailong.org/">白龙</a>
 
         <a target="_blank" href="http://silentexia.net/">星枫</a>
         <a target="_blank" href="http://www.byends.com/">羽飞</a>    
