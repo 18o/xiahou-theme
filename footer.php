@@ -10,7 +10,8 @@
     <span class="footer__copyright"> 本站由 
         <a href="http://typecho.org/" target="_blank">Typecho</a> 搭建，基于
         <a href="https://ghost.org/" target="_blank">Ghost</a>11主题
-        <a href="http://github.com/onevcat/vno" target="_blank">Vno</a> 修改
+        <a href="http://github.com/onevcat/vno" target="_blank">Vno</a> 修改，由
+        <a href="http://iios.net/">夏侯</a> 制作
     </span>
 </footer>
 	</div>
