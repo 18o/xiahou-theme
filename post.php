@@ -6,7 +6,7 @@
       <div class="post-meta">
         <time datetime="<?php $this->date(''); ?>" class="post-meta__date date"><?php $this->date(''); ?></time> • 
         <span class="post-list__meta--tags tags"><?php $this->category(','); ?></span>
-						<span class="post-list__meta--tags tags"><?php $this->tags('|'); ?></span>
+						<span class="post-list__meta--tags tags"><?php $this->tags('-'); ?></span>
       </div>
       <h1 class="post-title"><?php $this->title() ?></h1>
     </header>
