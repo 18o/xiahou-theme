@@ -1,6 +1,4 @@
 <footer class="footer">
-    <span class="footer__copyright">&copy; 2014  All rights reserved. </span>
-    
     <span class="footer__copyright">友情链接- 
     	<a target="_blank" href="http://www.bailong.org/">白龙</a>
 
@@ -13,17 +11,12 @@
         <a href="http://github.com/onevcat/vno" target="_blank">Vno</a> 修改，由
         <a href="http://iios.net/">夏侯</a> 制作
     </span>
+    <span class="footer__copyright">&copy; 2014  All rights reserved. </span>
 </footer>
 	</div>
 </div>
-
-
     <script src="<?php $this->options->themeUrl('public/js/jquery.min.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('public/js/main.js'); ?>"></script>
-
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/default.min.css'); ?>">
-    <script src="<?php $this->options->themeUrl('public/js/highlight.min.js'); ?>"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
 
     <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

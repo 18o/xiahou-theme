@@ -14,8 +14,10 @@
     <section class="post">
       <p><?php $this->content(); ?></p>
     </section>
-
   </article>
+  <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/default.min.css'); ?>">
+    <script src="<?php $this->options->themeUrl('public/js/highlight.min.js'); ?>"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 <section class="post-comments">
   <div id="disqus_thread"></div>
     <script type="text/javascript">
