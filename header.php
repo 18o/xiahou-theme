@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title><?php if($this->is('post') || $this->is('page') || $this->is('post')){$this->title();echo "-";} ?><?php $this->options->title(); ?></title> 
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/default.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/vno.css'); ?>" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/tomorrow.css'); ?>">
