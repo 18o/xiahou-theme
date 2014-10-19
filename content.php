@@ -10,8 +10,8 @@
 			<div class="post-list__meta">
 				<time datetime="<?php $this->date(); ?>" class="post-list__meta--date date">
 				<?php $this->date(); ?></time> &#8226; 
-				<span class="post-list__meta--tags tags"><?php $this->category(','); ?></span>
-				<span class="post-list__meta--tags tags"><?php $this->tags('|'); ?></span>
+				<span class="post-list__meta--tags tags"><?php $this->category('-'); ?></span>
+				<span class="post-list__meta--tags tags"><?php $this->tags('-'); ?></span>
 				<a class="btn-border-small" href="<?php $this->permalink() ?>">继续阅读</a>
 
 			</div>
