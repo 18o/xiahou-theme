@@ -82,7 +82,7 @@
 					                
 					                <!-- RSS -->
 					                <li class="navigation__item">
-					                  	<a href="#" title="RSS">
+					                  	<a href="http://iios.net/feed/" title="RSS">
 						                    <i class='social fa fa-rss'></i>
 						                    <span class="label">RSS</span>
 					                  	</a>
