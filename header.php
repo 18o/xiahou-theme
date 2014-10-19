@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/vno.css'); ?>" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/tomorrow.css'); ?>">
+    <?php $this->header(); ?>
 </head>
 <body class="home-template no-js">
     <span class="mobile btn-mobile-menu">
