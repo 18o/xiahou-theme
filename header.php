@@ -82,7 +82,7 @@
 					                
 					                <!-- RSS -->
 					                <li class="navigation__item">
-					                  	<a href="http://iios.net/feed/" title="RSS">
+					                  	<a href="http://iios.net/feed/" title="RSS" target="_blank">
 						                    <i class='social fa fa-rss'></i>
 						                    <span class="label">RSS</span>
 					                  	</a>
@@ -90,7 +90,7 @@
 					              
 					                <!-- Email -->
 					                <li class="navigation__item">
-					                  	<a href="mailto:admin@iios.net" title="邮件联系我">
+					                  	<a href="mailto:admin@iios.net" title="邮件联系我" target="_blank">
 						                    <i class='social fa fa-envelope'></i>
 						                    <span class="label">Email</span>
 					                  	</a>
