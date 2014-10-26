@@ -41,7 +41,7 @@
                   						<a href="#projects"  title="我的作品">作品</a>
                   					</li>
                  					<li class="navigation__item">
-                 						<a href="/about.html" title="了解更多关于我">关于</a>
+                 						<a href="/about.html" title="更多关于我">关于</a>
                  					</li>
                   					<!-- <li class="navigation__item">
                   						<a href="/" title="邮件订阅本站">订阅</a>
