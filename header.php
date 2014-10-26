@@ -38,7 +38,7 @@
                   						<a href="/#blog" title="访问博客" class="blog-button">博客</a>
                   					</li>
                   					<li class="navigation__item">
-                  						<a href="#projects"  title="我的作品">作品</a>
+                  						<a href="/projects.html"  title="我的作品">作品</a>
                   					</li>
                  					<li class="navigation__item">
                  						<a href="/about.html" title="更多关于我">关于</a>
