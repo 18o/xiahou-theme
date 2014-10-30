@@ -37,7 +37,7 @@
                         </ul>
                     </header>
                 </a>
-                <a href="" class="top-comment">
+                <a href="<?php echo $rand_posts[$i]['url'];?>" class="top-comment">
                     <img src="/usr/themes/xiahou/public/img/7539841.jpeg">
                     <p>
                         &nbsp;&nbsp;
