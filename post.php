@@ -18,20 +18,37 @@
 <script src="<?php $this->options->themeUrl('public/js/highlight.min.js'); ?>"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<section class="post-comments">
-    <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'xiahou'; // required: replace example with your forum shortname
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
+<div class="post-rand">
+    <section class="col-organic">
+        <ul class="discovery-posts">
+            <?php $rand_posts = rand_posts();
+                  for ($i = 0; $i < 2; $i++) { 
+            ?>
+            <li class="discovery-post">
+                <a href="" class="publisher-anchor-color">
+                    <header class="discovery-post-header">
+                        <h3 title="Java Jersey2使用总结">
+                            <span class="title line-truncate"><?php echo $rand_posts[$i]['title'];?></span>
+                        </h3>
+                        <ul class="meta">
+                            <li class="time"><?php echo $rand_posts[$i]['created'];?>&nbsp;</li>
+                            <li class="comments"><?php echo $rand_posts[$i]['comments'];?>条评论</li>
+                        </ul>
+                    </header>
+                </a>
+                <a href="" class="top-comment">
+                    <img src="http://localhost/usr/themes/xiahou/public/img/7539841.jpeg">
+                    <p>
+                        &nbsp;&nbsp;
+                        <span class="line-truncate"><?php echo $rand_posts[$i]['content'];?></span>
+                    </p>
+                </a>
+
+            </li>
+            <?php }?>
+        </ul>
+    </section>
+</div>
 
 <?php $this->need('footer.php'); ?>
