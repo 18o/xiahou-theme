@@ -38,7 +38,7 @@
                     </header>
                 </a>
                 <a href="" class="top-comment">
-                    <img src="http://localhost/usr/themes/xiahou/public/img/7539841.jpeg">
+                    <img src="/usr/themes/xiahou/public/img/7539841.jpeg">
                     <p>
                         &nbsp;&nbsp;
                         <span class="line-truncate"><?php echo $rand_posts[$i]['content'];?></span>
