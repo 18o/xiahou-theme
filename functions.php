@@ -22,7 +22,8 @@ function rand_posts(){
 			'title' => $result['title'],
 			'content' => mb_substr($result['text'], 0, 119, 'utf-8'),
 			'created' => date("Y-m-d", $result['created']),
-			'comments' => $result['commentsNum']
+			'comments' => $result['commentsNum'],
+			'url' => '/' . $result['slug'] . '.html'
 		];
 	}
 	return $render;

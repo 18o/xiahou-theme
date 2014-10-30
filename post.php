@@ -26,7 +26,7 @@
                   for ($i = 0; $i < 2; $i++) { 
             ?>
             <li class="discovery-post">
-                <a href="" class="publisher-anchor-color">
+                <a href="<?php echo $rand_posts[$i]['url'];?>" class="publisher-anchor-color">
                     <header class="discovery-post-header">
                         <h3 title="Java Jersey2使用总结">
                             <span class="title line-truncate"><?php echo $rand_posts[$i]['title'];?></span>
