@@ -28,7 +28,7 @@
             <li class="discovery-post">
                 <a href="<?php echo $rand_posts[$i]['url'];?>" class="publisher-anchor-color">
                     <header class="discovery-post-header">
-                        <h3 title="Java Jersey2使用总结">
+                        <h3>
                             <span class="title line-truncate"><?php echo $rand_posts[$i]['title'];?></span>
                         </h3>
                         <ul class="meta">
@@ -40,7 +40,6 @@
                 <a href="<?php echo $rand_posts[$i]['url'];?>" class="top-comment">
                     <img src="/usr/themes/xiahou/public/img/7539841.jpeg">
                     <p>
-                        &nbsp;&nbsp;
                         <span class="line-truncate"><?php echo $rand_posts[$i]['content'];?></span>
                     </p>
                 </a>
