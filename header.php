@@ -8,13 +8,14 @@
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/vno.css'); ?>" />
     <link rel="stylesheet" href="<?php $this->options->themeUrl('public/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('public/css/tomorrow.css'); ?>">
+    <?php $this->header(); ?>
 </head>
 <body class="home-template no-js">
     <span class="mobile btn-mobile-menu">
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-    <header class="panel-cover" style="background-image: url(<?php $this->options->themeUrl('public/img/bg.jpg'); ?>)">
+    <header class="panel-cover" style="background-image: url(<?php $this->options->themeUrl('public/img/IMG_2157_IIOS.jpg'); ?>)">
       	<div class="panel-main">
         	<div class="panel-main__inner panel-inverted">
         		<div class="panel-main__content">
@@ -37,10 +38,10 @@
                   						<a href="/#blog" title="访问博客" class="blog-button">博客</a>
                   					</li>
                   					<li class="navigation__item">
-                  						<a href="#projects"  title="我的项目">项目</a>
+                  						<a href="/projects.html"  title="我的作品">作品</a>
                   					</li>
                  					<li class="navigation__item">
-                 						<a href="/about.html" title="了解更多关于我">关于</a>
+                 						<a href="/about.html" title="更多关于我">关于</a>
                  					</li>
                   					<!-- <li class="navigation__item">
                   						<a href="/" title="邮件订阅本站">订阅</a>
@@ -81,7 +82,7 @@
 					                
 					                <!-- RSS -->
 					                <li class="navigation__item">
-					                  	<a href="#" title="RSS">
+					                  	<a href="http://iios.net/feed/" title="RSS" target="_blank">
 						                    <i class='social fa fa-rss'></i>
 						                    <span class="label">RSS</span>
 					                  	</a>
@@ -89,7 +90,7 @@
 					              
 					                <!-- Email -->
 					                <li class="navigation__item">
-					                  	<a href="mailto:admin@iios.net" title="邮件联系我">
+					                  	<a href="mailto:admin@iios.net" title="邮件联系我" target="_blank">
 						                    <i class='social fa fa-envelope'></i>
 						                    <span class="label">Email</span>
 					                  	</a>

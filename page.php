@@ -4,12 +4,10 @@
     <header class="post-header">
         <h1 class="post-title"><?php $this->title() ?></h1>
     </header>
-
     <section class="post">
         <p><?php $this->content(); ?></p>
     </section>
+</article>
 
-  </article>
 
-
-  	<?php $this->need('footer.php'); ?>
+<?php $this->need('footer.php'); ?>

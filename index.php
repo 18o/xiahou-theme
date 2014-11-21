@@ -4,7 +4,7 @@
  * 
  * @package Typecho Xiahou Theme 
  * @author 夏侯
- * @version 1.0
+ * @version 1.1
  * @link http://iios.net/
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

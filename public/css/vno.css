@@ -577,8 +577,6 @@ i {
   padding: 0;
   list-style-type: none;
   text-align: left; }
-  .post-list li {
-    margin: 0 0 2.2em 0; }
     .post-list li:last-child hr {
       display: none; }
 
@@ -824,3 +822,95 @@ input[type="tel"] {
   .btn, .navigation__item a {
     display: block;
     margin-bottom: .4em; } }
+/*随机文章*/
+.post-rand {
+/*  border-top: 1px solid #dddddd;*/
+  padding: 5px 0;
+  display: inline-block;
+  color: #444;
+  font-family: "Helvetica Neue",arial,sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  clear: both;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.post-rand ul {
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+font-weight: 400;
+font-style: normal;
+font-size: 100%;
+line-height: 1;
+font-family: inherit;
+}
+.discovery-post:nth-child(odd) {
+margin-right: 4%;
+}
+.discovery-post {
+margin-bottom: 10px;
+float: left;
+width: 48%;
+}
+.post-rand a.publisher-anchor-color {
+color: rgb(191, 24, 39);
+}
+a.publisher-anchor-color {
+color: rgb(191, 24, 39);
+}
+.discovery-post .meta li {
+display: inline;
+line-height: 1.1em;
+font-weight: 500;
+font-size: 12px;
+}
+.discovery-post .meta li.time:after {
+content: '\2022';
+color: #ccc;
+}
+.discovery-post .meta li:last-of-type {
+margin-right: 0;
+}
+.discovery-post h3 {
+margin-bottom: 4px;
+font-size: 16px;
+font-weight: 700;
+display: block;
+line-height: 1.25em;
+max-height: 2.5em;
+overflow: hidden;
+margin-top: 1px;
+}
+.discovery-post .top-comment {
+color: #333;
+display: inline-block;
+width: 100%;
+margin-top: 6px;
+font-size: 14px;
+}
+.discovery-post .top-comment img {
+width: 30px;
+height: 30px;
+float: left;
+margin-right: 8px;
+margin-top: 3px;
+border-radius: 3px;
+}
+.discovery-post .top-comment p {
+line-height: 1.4em;
+max-height: 4.2em;
+overflow: hidden;
+font-size: 14px;
+margin-bottom: 0;
+color: #42474a;
+}
+.discovery-post .meta {
+color: #777;
+}
+
+.discovery-post .title {
+color: rgb(191, 24, 39);
+}
