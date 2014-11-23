@@ -110,7 +110,10 @@ h5 {
 
 p {
   margin-bottom: 1.3em;
-  line-height: 1.7em; }
+  line-height: 1.7em;
+  text-indent: 2em;
+  color: #000;
+}
 
 strong {
   font-weight: bold; }
