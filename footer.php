@@ -9,7 +9,7 @@
         <a href="http://github.com/onevcat/vno" target="_blank">Vno</a> 修改，由
         <a href="http://iios.net/">夏侯</a> 制作
     </span>
-    <span class="footer__copyright">&copy; 2014  All rights reserved. </span>
+    <span class="footer__copyright">Copyright &copy; 2014 夏侯.  All rights reserved. </span>
 </footer>
 	</div>
 </div>
