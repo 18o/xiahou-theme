@@ -49,5 +49,5 @@
         </ul>
     </section>
 </div>
-<?php $this->need('comments.php'); ?>
+<?php //$this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
