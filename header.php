@@ -20,7 +20,7 @@
         	<div class="panel-main__inner panel-inverted">
         		<div class="panel-main__content">
     				<a href="/" title="前往 <?php $this->options->title(); ?> 的主页">
-    					<img src="<?php $this->options->themeUrl('public/img/icoo.jpeg'); ?>" width="80" alt="<?php $this->options->title(); ?> logo" class="panel-cover__logo logo" />
+    					<img src="<?php $this->options->themeUrl('public/img/icoo.jpg'); ?>" width="80" alt="<?php $this->options->title(); ?> logo" class="panel-cover__logo logo" />
     				</a>
 		            <h1 class="panel-cover__title panel-title">
 		            	<a href="/" title="link to homepage for <?php $this->options->title(); ?>"><?php $this->options->title(); ?></a>
