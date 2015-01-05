@@ -19,7 +19,7 @@
 <script>hljs.initHighlightingOnLoad();</script>
 
 
-<div class="post-rand">
+<!-- <div class="post-rand">
     <section class="col-organic">
         <ul class="discovery-posts">
             <?php $rand_posts = rand_posts();
@@ -48,6 +48,6 @@
             <?php }?>
         </ul>
     </section>
-</div>
+</div> -->
 <?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
