@@ -33,7 +33,7 @@
                         </h3>
                         <ul class="meta">
                             <li class="time"><?php echo $rand_posts[$i]['created'];?>&nbsp;</li>
-                            <li class="comments"><?php echo $rand_posts[$i]['comments'];?>条评论</li>
+                            <!-- <li class="comments"><?php echo $rand_posts[$i]['comments'];?>条评论</li> -->
                         </ul>
                     </header>
                 </a>
