@@ -9,5 +9,5 @@
     </section>
 </article>
 
-
+<?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
