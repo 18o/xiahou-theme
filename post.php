@@ -19,35 +19,5 @@
 <script>hljs.initHighlightingOnLoad();</script>
 
 
-<!-- <div class="post-rand">
-    <section class="col-organic">
-        <ul class="discovery-posts">
-            <?php $rand_posts = rand_posts();
-                  for ($i = 0; $i < 2; $i++) { 
-            ?>
-            <li class="discovery-post">
-                <a href="<?php echo $rand_posts[$i]['url'];?>" class="publisher-anchor-color">
-                    <header class="discovery-post-header">
-                        <h3>
-                            <span class="title line-truncate"><?php echo $rand_posts[$i]['title'];?></span>
-                        </h3>
-                        <ul class="meta">
-                            <li class="time"><?php echo $rand_posts[$i]['created'];?>&nbsp;</li>
-                            <!-- <li class="comments"><?php echo $rand_posts[$i]['comments'];?>条评论</li> -->
-                        </ul>
-                    </header>
-                </a>
-                <a href="<?php echo $rand_posts[$i]['url'];?>" class="top-comment">
-                    <img src="/usr/themes/xiahou/public/img/icoo.jpg">
-                    <p>
-                        <span class="line-truncate"><?php echo $rand_posts[$i]['content'];?></span>
-                    </p>
-                </a>
-
-            </li>
-            <?php }?>
-        </ul>
-    </section>
-</div> -->
 <?php $this->need('comments.php'); ?>
 <?php $this->need('footer.php'); ?>
