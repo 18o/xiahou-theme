@@ -7,7 +7,7 @@
             <span class="post-list__meta--tags tags"><?php $this->category('-'); ?></span>
 			<span class="post-list__meta--tags tags"><?php $this->tags('-'); ?></span>
         </div>
-        <h2 class="post-title"><?php $this->title() ?></h2>
+        <h3 class="post-title"><?php $this->title() ?></h3>
     </header>
 
     <section class="post">
