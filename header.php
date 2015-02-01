@@ -15,7 +15,7 @@
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-    <header class="panel-cover" style="background-image: url(<?php $this->options->themeUrl('public/img/IMG_2198_web.jpg'); ?>)">
+    <header class="panel-cover" style="background-image: url(http://iios.qiniudn.com/IMG_2198_web.jpg)">
       	<div class="panel-main">
         	<div class="panel-main__inner panel-inverted">
         		<div class="panel-main__content">
