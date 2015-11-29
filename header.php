@@ -22,9 +22,9 @@
     				<a href="/" title="前往 <?php $this->options->title(); ?> 的主页">
     					<img src="http://iios.net/usr/uploads/2015/11/892173921.jpg" width="80" alt="<?php $this->options->title(); ?> logo" class="panel-cover__logo logo" />
     				</a>
-		            <h1 class="panel-cover__title panel-title">
+		            <h3 class="panel-cover__title panel-title">
 		            	<a href="/" title="link to homepage for <?php $this->options->title(); ?>"><?php $this->options->title(); ?></a>
-		            </h1>
+		            </h3>
             		<span class="panel-cover__subtitle panel-subtitle"></span>
             		<hr class="panel-cover__divider" />
             		<p class="panel-cover__description">
