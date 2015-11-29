@@ -27,15 +27,17 @@
 		            </h1>
             		<span class="panel-cover__subtitle panel-subtitle"></span>
             		<hr class="panel-cover__divider" />
-            		<p class="panel-cover__description">
-            		<?php 
-            			$a = $this->options->description();
-					echo $a;
-					?>
-
+            		<p class="panel-cover__description  panel-subtitle">
+            		我得到的都是侥幸
             		</p>
-            		<hr class="panel-cover__divider panel-cover__divider--secondary" />
-    
+<!--            		<hr class="panel-cover__divider panel-cover__divider--secondary" />-->
+                    <p class="panel-cover__description  panel-subtitle">
+                       我失去的都是人生
+
+                    </p>
+                    <hr class="panel-cover__divider" />
+<!--                    <p class="panel-cover__description">工作，学习，生活</p>-->
+<!--                    <hr class="panel-cover__divider" />-->
             		<div class="navigation-wrapper">
               			<div>
               				<nav class="cover-navigation cover-navigation--primary">
@@ -65,7 +67,7 @@
 		                  				</a>
 		                			</li>
 					                <li class="navigation__item">
-					                  	<a href="https://github.com/xia-hou" title="Github" target="_blank">
+					                  	<a href="https://github.com/xtreeio" title="Github" target="_blank">
 					                    	<i class='social fa fa-github'></i>
 					                    	<span class="label">Github</span>
 					                  	</a>
