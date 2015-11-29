@@ -15,19 +15,25 @@
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-    <header class="panel-cover" style="background-image: url(http://iios.qiniudn.com/IMG_2198_web.jpg)">
+    <header class="panel-cover" style="background-image: url(http://iios.net/usr/uploads/2015/11/3393148476.jpg)">
       	<div class="panel-main">
         	<div class="panel-main__inner panel-inverted">
         		<div class="panel-main__content">
     				<a href="/" title="前往 <?php $this->options->title(); ?> 的主页">
-    					<img src="<?php $this->options->themeUrl('public/img/icoo.jpg'); ?>" width="80" alt="<?php $this->options->title(); ?> logo" class="panel-cover__logo logo" />
+    					<img src="http://iios.net/usr/uploads/2015/11/892173921.jpg" width="80" alt="<?php $this->options->title(); ?> logo" class="panel-cover__logo logo" />
     				</a>
 		            <h1 class="panel-cover__title panel-title">
 		            	<a href="/" title="link to homepage for <?php $this->options->title(); ?>"><?php $this->options->title(); ?></a>
 		            </h1>
             		<span class="panel-cover__subtitle panel-subtitle"></span>
             		<hr class="panel-cover__divider" />
-            		<p class="panel-cover__description"><?php $this->options->description() ?></p>
+            		<p class="panel-cover__description">
+            		<?php 
+            			$a = $this->options->description();
+					echo $a;
+					?>
+
+            		</p>
             		<hr class="panel-cover__divider panel-cover__divider--secondary" />
     
             		<div class="navigation-wrapper">

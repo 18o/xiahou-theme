@@ -366,7 +366,9 @@ hr {
   margin-bottom: .2em; }
 
 .panel-cover__description {
-  margin: 0 30px; }
+  color: #fff;
+  margin: 0 30px;
+}
 
 .panel-cover__divider {
   width: 50%;
