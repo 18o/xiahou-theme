@@ -66,22 +66,8 @@
                             </article>
                         <?php endwhile; ?>
                     </section>
+                    <?php $this->need('pagination.php'); ?>
 
-                    <nav class="pagination">
-                        <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a>
-                        <a class="page-number" href="/">1</a>
-                        <span class="page-number current">2</span>
-                        <a class="page-number" href="/page/3/">3</a>
-                        <span class="space">&hellip;</span>
-                        <a class="page-number" href="/page/37/">37</a>
-                        <a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
-                    </nav>
-                    <nav class="pagination" role="navigation">
-                        <?php $this->pageLink('<span class="newer-posts pagination__newer btn btn-small btn-tertiary">&larr; 最近</span>'); ?>
-                        <span class="pagination__page-number"><?php echo $this->getCurrentPage() ?> / <?php echo $this->getTotalPage() ?></span>
-                        <?php $this->pageLink('<span class="older-posts pagination__older btn btn-small btn-tertiary">更早 &rarr;</span>', 'next'); ?>
-                    </nav>
-                    <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
                 </div>
             </div>
 
