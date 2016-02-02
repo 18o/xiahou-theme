@@ -1,3 +1,4 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
         <section class="site-overview sidebar-panel  sidebar-panel-active ">
@@ -16,7 +17,6 @@
                 </div>
 
                 <div class="site-state-item site-state-categories">
-
                     <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">分类</span>
 
@@ -33,36 +33,36 @@
 
 
             <div class="feed-link motion-element">
-                <a href="/atom.xml" rel="alternate">
+                <a href="/feed/atom/" rel="alternate">
                     <i class="fa fa-rss"></i>
                     RSS
                 </a>
             </div>
 
             <div class="links-of-author motion-element">
-                          <span class="links-of-author-item">
-                            <a href="https://github.com/xtreeio" target="_blank">
-                                <i class="fa fa-github"></i> GitHub
-                            </a>
-                          </span>
+                <span class="links-of-author-item">
+                <a href="https://github.com/xtreeio" target="_blank">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+                </span>
 
-                          <span class="links-of-author-item">
-                            <a href="https://twitter.com/tzllangzi" target="_blank">
-                                <i class="fa fa-twitter"></i> Twitter
-                            </a>
-                          </span>
+                <span class="links-of-author-item">
+                <a href="https://twitter.com/tzllangzi" target="_blank">
+                    <i class="fa fa-twitter"></i> Twitter
+                </a>
+                </span>
 
-                          <span class="links-of-author-item">
-                            <a href="http://weibo.com/tzllangzi" target="_blank">
-                                <i class="fa fa-weibo"></i> 微博
-                            </a>
-                          </span>
+                <span class="links-of-author-item">
+                <a href="http://weibo.com/tzllangzi" target="_blank">
+                    <i class="fa fa-weibo"></i> 微博
+                </a>
+                </span>
 
-                          <span class="links-of-author-item">
-                            <a href="http://www.zhihu.com/people/xia-hou-zhong-da" target="_blank">
-                                <i class="fa fa-globe"></i> 知乎
-                            </a>
-                          </span>
+                <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/xia-hou-zhong-da" target="_blank">
+                    <i class="fa fa-globe"></i> 知乎
+                </a>
+                </span>
             </div>
 
             <div class="links-of-author motion-element"></div>

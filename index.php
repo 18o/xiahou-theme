@@ -13,5 +13,6 @@ $this->need('header.php');
 
 $this->need('content.php');
 
-$this->need('footer.php'); ?>
+$this->need('footer.php');
 
+?>

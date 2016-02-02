@@ -1,3 +1,4 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <header id="header" class="header" >
     <div class="header-inner">
         <div class="site-nav-toggle">
