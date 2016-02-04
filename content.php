@@ -41,9 +41,13 @@
                                         </span>
 
                                           <span class="post-comments-count">&nbsp; | &nbsp;
-                                            <a href="/2015/questions-in-writing/#comments">
+                                            <a href="">
                                                 <span class="post-comments-count ds-thread-count">
-                                                    <?php echo  $this->commentNum() == 0 ? '' : $this->commentNum() . '条评论';?>
+                                                    <?php
+                                                    $commentNum = $this->commentNum();
+                                                    echo is_null($commentNum) ? 0 : $commentNum;
+                                                    ?>
+                                                    条评论
                                                 </span>
                                             </a>
                                           </span>

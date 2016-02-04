@@ -5,7 +5,23 @@ $total_page = $this->getTotalPage();
 ?>
 
 
-
+<?php
+//$this->pageNav(
+//    '<i class="fa fa-angle-left"></i>',
+//    '<i class="fa fa-angle-right"></i>',
+//    3,
+//    '...',
+//    [
+//        'wrapTag' => 'nav',
+//        'wrapClass' => 'pagination',
+//        'itemTag' => 'span',
+//        'textTag' => 'span',
+//        'currentClass' => 'current',
+//        'prevClass' => 'extend',
+//        'nextClass' => 'extend'
+//
+//    ]);
+?>
 
 <nav class="pagination">
 
