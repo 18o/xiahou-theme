@@ -28,3 +28,12 @@ function rand_posts(){
 	}
 	return $render;
 }
+
+function tags_count() {
+    $db = Typecho_Db::get();
+    $rs = $db->fetchRow($db->select(['COUNT(mid)' => 'total'])
+        ->from('table.metas')
+        ->where('table.metas.type = ?', 'tag'));
+
+    return $rs['total'];
+}

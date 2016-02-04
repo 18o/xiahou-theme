@@ -11,20 +11,33 @@
             <nav class="site-state motion-element">
                 <div class="site-state-item site-state-posts">
                     <a href="/archives">
-                        <span class="site-state-item-count">181</span>
+                        <span class="site-state-item-count">
+                            <?php
+                            $this->widget('Widget_Stat')->to($stat);
+                            echo $stat->publishedPostsNum;
+                            ?>
+                        </span>
                         <span class="site-state-item-name">日志</span>
                     </a>
                 </div>
 
                 <div class="site-state-item site-state-categories">
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">
+                        <?php
+                        echo $stat->categoriesNum;
+                        ?>
+                    </span>
                     <span class="site-state-item-name">分类</span>
 
                 </div>
 
                 <div class="site-state-item site-state-tags">
                     <a href="/tags">
-                        <span class="site-state-item-count">110</span>
+                        <span class="site-state-item-count">
+                            <?php
+                            echo tags_count();
+                            ?>
+                        </span>
                         <span class="site-state-item-name">标签</span>
                     </a>
                 </div>

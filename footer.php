@@ -11,7 +11,7 @@
         </div>
 
         <div class="powered-by">
-            由 <a class="theme-link" href="http://typecho.org/">Tyecho</a> 强力驱动
+            由 <a class="theme-link" href="http://typecho.org/">Typecho</a> 强力驱动
         </div>
 
         <div class="theme-info">

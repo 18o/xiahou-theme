@@ -42,11 +42,13 @@
 
                                           <span class="post-comments-count">&nbsp; | &nbsp;
                                             <a href="/2015/questions-in-writing/#comments">
-                                                <span class="post-comments-count ds-thread-count" data-thread-key="2015/questions-in-writing/">105条评论</span>
+                                                <span class="post-comments-count ds-thread-count">
+                                                    <?php echo  $this->commentNum() == 0 ? '' : $this->commentNum() . '条评论';?>
+                                                </span>
                                             </a>
                                           </span>
 
-                                         <span id="/2015/questions-in-writing/" class="leancloud_visitors" data-flag-title="关于如何写作的知乎问答">
+                                         <span id="/2015/questions-in-writing/" class="leancloud_visitors">
                                            &nbsp; | &nbsp;
                                            <span class="post-meta-item-icon">
                                              <i class="fa fa-eye"></i>
