@@ -34,6 +34,13 @@ function tags_count() {
     $rs = $db->fetchRow($db->select(['COUNT(mid)' => 'total'])
         ->from('table.metas')
         ->where('table.metas.type = ?', 'tag'));
-
     return $rs['total'];
+}
+
+function post_views($cid) {
+    $db = Typecho_Db::get();
+    $rs = $db->fetchRow($db->select(['views' => 'views'])
+        ->from('table.contents')
+        ->where('table.contents.cid = ?', $cid));
+    return $rs['views'];
 }
