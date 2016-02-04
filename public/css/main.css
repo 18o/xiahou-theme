@@ -2282,7 +2282,7 @@ body {
   border-color: #eee;
 }
 .site-author-name {
-  margin: 0;
+  margin: -2px;
   font-weight: 600;
 }
 .site-description {
