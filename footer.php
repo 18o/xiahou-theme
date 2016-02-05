@@ -11,12 +11,12 @@
         </div>
 
         <div class="powered-by">
-            由 <a class="theme-link" href="http://typecho.org/">Typecho</a> 强力驱动
+            由 <a class="theme-link"  rel=”nofollow”   href="http://typecho.org/">Typecho</a> 强力驱动
         </div>
 
         <div class="theme-info">
             主题 -
-            <a class="theme-link" href="https://github.com/xtreeio/xiahou-theme.git">
+            <a class="theme-link"  rel=”nofollow”  href="https://github.com/xtreeio/xiahou-theme.git">
                 NexT.Xiahou
             </a>
         </div>
