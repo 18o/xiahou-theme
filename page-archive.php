@@ -1,6 +1,6 @@
 <?php
     /**
-     * 归档页面
+     * archive
      *
      * @package archive
      */
