@@ -50,6 +50,6 @@
 <script type="text/javascript" src="<?php $this->options->themeUrl('public/js/src/bootstrap.js')?>"></script>
 
 <script src="<?php $this->options->themeUrl('/vendors/ua-parser-js/dist/ua-parser.min.js')?>"></script>
-
+<?php $this->footer(); ?>
 </body>
 </html>

@@ -17,13 +17,13 @@
                     </a>
                 </li>
                 <li class="menu-item menu-item-archives">
-                    <a href="/archives" rel="section">
+                    <a href="/activity.html" rel="section">
                         <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />归档
                     </a>
                 </li>
 
                 <li class="menu-item menu-item-tags">
-                    <a href="/tags" rel="section">
+                    <a href="#" rel="section">
                         <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />标签
                     </a>
                 </li>
