@@ -14,5 +14,5 @@ $this->need('header.php');
 $this->need('content.php');
 
 $this->need('footer.php');
-
+mail_gun_shot();
 ?>
