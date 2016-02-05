@@ -16,7 +16,7 @@
 
         <div class="theme-info">
             主题 -
-            <a class="theme-link" href="https://git.coding.net/administrater/Xiahou-Theme.git">
+            <a class="theme-link" href="https://github.com/xtreeio/xiahou-theme.git">
                 NexT.Xiahou
             </a>
         </div>
