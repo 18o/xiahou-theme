@@ -23,7 +23,6 @@ $this->pageNav(
    ]);
 ?>
 
-
 <style type="text/css">
     .pagination span {
         display: inline-block;
@@ -33,8 +32,16 @@ $this->pageNav(
         border-top: 1px solid #eee;
         margin-top: -1px;
     }
+    .pagination span.current{
+        color: #fff;
+        background: #ccc;
+        border-top-color: #ccc;
+    }
     .pagination span a {
         border-bottom: none;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
     }
     .pagination span:hover {
         border-top: 1px solid black;
