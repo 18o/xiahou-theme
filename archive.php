@@ -1,10 +1,4 @@
 <?php
-    /**
-     * 归档页面
-     *
-     * @package archive
-     */
-
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
