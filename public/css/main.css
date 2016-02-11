@@ -492,73 +492,7 @@ body {
     width: 900px;
   }
 }
-pre,
-.highlight {
-  background: #f7f7f7;
-  margin: 20px 0;
-  padding: 15px;
-  overflow: auto;
-  font-size: 13px;
-  color: #4d4d4c;
-  line-height: 1.6;
-}
-.highlight .gutter pre,
-.gist .gist-file .gist-data .line-numbers {
-  color: #666;
-}
-pre,
-code {
-  font-family: "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
-}
-code {
-  word-break: break-all;
-  background: #eee;
-  text-shadow: 0 1px #fff;
-  padding: 0 0.3em;
-}
-pre code {
-  background: none;
-  text-shadow: none;
-  padding: 0;
-}
-.highlight pre {
-  border: none;
-  margin: 0;
-  padding: 1px;
-}
-.highlight table {
-  margin: 0;
-  width: auto;
-  border: none;
-}
-.highlight td {
-  border: none;
-  padding: 0;
-}
-.highlight figcaption {
-  font-size: 0.85em;
-  color: #8e908c;
-  line-height: 1em;
-  margin-bottom: 1em;
-}
-.highlight figcaption:before,
-.highlight figcaption:after {
-  content: " ";
-  display: table;
-}
-.highlight figcaption:after {
-  clear: both;
-}
-.highlight figcaption a {
-  float: right;
-}
-.highlight .gutter pre {
-  text-align: right;
-  padding-right: 20px;
-}
-.highlight .line {
-  height: 20px;
-}
+
 .gist {
   margin: 20px 0;
   border-style: solid;
