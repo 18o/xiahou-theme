@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="site-state-item site-state-tags">
-                    <a href="/tags">
+                    <a href="/tag.html">
                         <span class="site-state-item-count">
                             <?php
                             echo tags_count();

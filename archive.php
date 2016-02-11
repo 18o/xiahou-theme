@@ -30,6 +30,7 @@ $this->need('header.php');
                                 ), '', ''); ?>
                             </h2>
                         </div>
+
                         <?php if ($this->have()): ?>
                                 <?php while($this->next()): ?>
                                 <article class="post post-type-normal">

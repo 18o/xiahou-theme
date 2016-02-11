@@ -23,7 +23,7 @@
                 </li>
 
                 <li class="menu-item menu-item-tags">
-                    <a href="#" rel="section">
+                    <a href="/tag.html" rel="section">
                         <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />标签
                     </a>
                 </li>
