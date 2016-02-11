@@ -44,3 +44,4 @@ function post_views($cid) {
         ->where('table.contents.cid = ?', $cid));
     return $rs['views'];
 }
+
