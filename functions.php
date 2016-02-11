@@ -45,3 +45,15 @@ function post_views($cid) {
     return $rs['views'];
 }
 
+
+function themeConfig($form) {
+    $friends = new Typecho_Widget_Helper_Form_Element_Textarea(
+        'friends',
+        NULL,
+        NULL,
+        _t('友情链接'),
+        _t('友情链接，用,换行分割')
+    );
+    $form->addInput($friends);
+
+}

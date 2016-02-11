@@ -65,12 +65,18 @@
                 </a>
                 </span>
 
+                <?php
+                $friends = explode("\n", $this->options->friends);
+                foreach($friends as $f) {
+                    $_f = explode(',', $f);
 
+
+                ?>
                 <span class="links-of-author-item">
-                <a href="http://www.byends.com/" target="_blank">
-                    <i class="fa fa-globe"></i> 羽飞
-                </a>
+                <a href="<?php echo $_f[1]; ?>" target="_blank">
+                    <i class="fa fa-globe"></i><?php echo mb_substr($_f[0], 0, 3) ; ?></a>
                 </span>
+                <?php  } ?>
             </div>
 
             <div class="links-of-author motion-element"></div>
