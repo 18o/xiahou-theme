@@ -1,4 +1,4 @@
-<div class="comments" id="comments">
+<div class="comments post" id="comments">
     <?php
     $this->comments()->to($comments);
     //function threadedComments($comments, $options) {

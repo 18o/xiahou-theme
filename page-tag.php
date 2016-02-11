@@ -31,7 +31,7 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
                             <div class="tag-cloud-title">
                                 目前共计 <?php echo tags_count();?> 个标签
                             </div>
-                            <div class="tag-cloud-tags">
+                            <div class="tag-cloud-tags post">
                                 <?php Typecho_Widget::widget('Widget_Metas_Tag_Cloud')->to($tags); ?>
                                 <?php if($tags->have()): ?>
                                     <?php while ($tags->next()): ?>

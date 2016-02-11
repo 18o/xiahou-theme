@@ -42,7 +42,7 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
                                     $year = $year_tmp;
 
                                 ?>
-                                <div class="collection-title">
+                                <div class="collection-title post">
                                     <h2 class="archive-year motion-element" id="archive-year-<?php echo $year; ?>" style="opacity: 1; display: block; transform: translateX(0px);"><?php echo $year; ?></h2>
                                 </div>
                                     <?php } ?>
