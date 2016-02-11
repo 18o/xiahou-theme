@@ -28,14 +28,24 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
 
 
                     <section id="posts" class="posts-collapse">
-                        <div class="collection-title">
-
-                            <span class="archive-page-counter">
+                        <span class="archive-move-on"></span>
+                        <span class="archive-page-counter">
                   非常好！ 目前共计 <b> <?php echo $stat->publishedPostsNum;?> </b> 篇日志， 继续努力。
-                </span>
-                        </div>
-                        <?php if ($archives->have()): ?>
-                                <?php while($archives->next()): ?>
+                        </span>
+
+                        <?php
+                        $year = '';
+                        if ($archives->have()):
+                            while($archives->next()):
+                                $year_tmp = date('Y', $archives->created);
+                                if($year != $year_tmp) {
+                                    $year = $year_tmp;
+
+                                ?>
+                                <div class="collection-title">
+                                    <h2 class="archive-year motion-element" id="archive-year-<?php echo $year; ?>" style="opacity: 1; display: block; transform: translateX(0px);"><?php echo $year; ?></h2>
+                                </div>
+                                    <?php } ?>
                                 <article class="post post-type-normal">
                                     <header class="post-header">
 
