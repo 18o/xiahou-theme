@@ -9,7 +9,7 @@
     <?php if ($comments->have()): ?>
         <span class="widget-title"><?php $this->commentsNum(_t('暂无评论'), _t('仅有 1 条评论'), _t('已有 %d 条评论'));?></span>
         <?php $comments->listComments();?>
-        <?php $comments->pageNav('&laquo; ', ' &raquo;', 5, '...', array('wrapTag' => 'nav', 'wrapClass' => 'pagination', 'itemTag' => '', 'prevClass' => 'extend prev', 'nextClass' => 'extend next', 'currentClass' => 'page-number current'));?>
+        <?php $comments->pageNav('&laquo; ', ' &raquo;', 50, '...', array('wrapTag' => 'nav', 'wrapClass' => 'pagination', 'itemTag' => '', 'prevClass' => 'extend prev', 'nextClass' => 'extend next', 'currentClass' => 'page-number current'));?>
     <?php endif;?>
     <?php if ($this->allow('comment')): ?>
         <div id="<?php $this->respondId();?>" class="respond">
