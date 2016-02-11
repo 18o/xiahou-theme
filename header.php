@@ -9,6 +9,7 @@
     <link href="<?php $this->options->themeUrl('/vendors/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet" type="text/css" />
     <link href="<?php $this->options->themeUrl('public/css/main.css')?>" rel="stylesheet" type="text/css" />
     <link href="<?php $this->options->themeUrl('public/css/highlight.min.css')?>" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="<?php $this->options->themeUrl('/public/favicon.ico')?>" type="image/x-icon" />
     <?php $this->header(); ?>
 
     <script type="text/javascript" id="hexo.configuration">
