@@ -54,26 +54,21 @@
 
             <div class="links-of-author motion-element">
                 <span class="links-of-author-item">
-                <a href="https://github.com/xtreeio" target="_blank">
+                <a href="https://github.com/xtreeio" target="_blank" rel="nofollow">
                     <i class="fa fa-github"></i> GitHub
                 </a>
                 </span>
 
                 <span class="links-of-author-item">
-                <a href="https://twitter.com/tzllangzi" target="_blank">
+                <a href="https://twitter.com/tzllangzi" target="_blank" rel="nofollow">
                     <i class="fa fa-twitter"></i> Twitter
                 </a>
                 </span>
 
-                <span class="links-of-author-item">
-                <a href="http://weibo.com/tzllangzi" target="_blank">
-                    <i class="fa fa-weibo"></i> 微博
-                </a>
-                </span>
 
                 <span class="links-of-author-item">
-                <a href="http://www.zhihu.com/people/xia-hou-zhong-da" target="_blank">
-                    <i class="fa fa-globe"></i> 知乎
+                <a href="http://www.byends.com/" target="_blank">
+                    <i class="fa fa-globe"></i> 羽飞
                 </a>
                 </span>
             </div>
