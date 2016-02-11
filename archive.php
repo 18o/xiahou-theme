@@ -10,7 +10,6 @@ $this->need('header.php');
 
 
 <div class="container one-collumn sidebar-position-left  page-archive  ">
-    <div class="headband"></div>
     <?php $this->need('nav.php');?>
 
     <main id="main" class="main">

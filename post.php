@@ -9,7 +9,6 @@ $db->query($sql);
 
 <body>
 <div class="container one-collumn sidebar-position-left page-post-detail ">
-    <div class="headband"></div>
     <?php $this->need('nav.php'); ?>
     <main id="main" class="main">
         <div class="main-inner">

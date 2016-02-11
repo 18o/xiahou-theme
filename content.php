@@ -1,8 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <body>
 <div class="container one-collumn sidebar-position-leftpage-home">
-    <div class="headband"></div>
-
 <?php $this->need('nav.php'); ?>
     <main id="main" class="main">
         <div class="main-inner">
