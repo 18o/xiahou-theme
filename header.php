@@ -8,7 +8,9 @@
     <link href="<?php $this->options->themeUrl('/vendors/fancybox/source/jquery.fancybox.css')?>" rel="stylesheet" type="text/css"/>
     <link href="<?php $this->options->themeUrl('/vendors/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet" type="text/css" />
     <link href="<?php $this->options->themeUrl('public/css/main.css')?>" rel="stylesheet" type="text/css" />
+    <link href="<?php $this->options->themeUrl('public/css/highlight.min.css')?>" rel="stylesheet" type="text/css" />
     <?php $this->header(); ?>
+
     <script type="text/javascript" id="hexo.configuration">
         var NexT = window.NexT || {};
         var CONFIG = {
