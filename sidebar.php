@@ -69,7 +69,7 @@
                 $friends = explode("\n", $this->options->friends);
                 foreach($friends as $f) {
                     $_f = explode(',', $f);
-
+                    if(!trim($_f[0])) continue;
 
                 ?>
                 <span class="links-of-author-item">
