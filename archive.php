@@ -31,8 +31,10 @@ $this->need('header.php');
                             </h2>
                         </div>
 
-                        <?php if ($this->have()): ?>
-                                <?php while($this->next()): ?>
+                        <?php 
+                        if ($this->have()):
+                            while($this->next()):
+                        ?>
                                 <article class="post post-type-normal">
                                     <header class="post-header">
 
@@ -80,3 +82,6 @@ $this->need('header.php');
     </main>
 
 <?php $this->need('footer.php');?>
+<script>
+    $(".menu-item-archives").addClass("menu-item-active");
+</script>
