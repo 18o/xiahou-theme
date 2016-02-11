@@ -29,8 +29,9 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
 
                     <section id="posts" class="posts-collapse">
                         <div class="collection-title">
+
                             <span class="archive-page-counter">
-                  非常好！ 目前共计  <?php echo $stat->publishedPostsNum;?>  篇日志， 继续努力。
+                  非常好！ 目前共计 <b> <?php echo $stat->publishedPostsNum;?> </b> 篇日志， 继续努力。
                 </span>
                         </div>
                         <?php if ($archives->have()): ?>

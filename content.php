@@ -16,6 +16,11 @@
                                 <div class="post-body" >
                                     <?php $this->content(); ?>
                                 </div>
+                                <div class="post-more-link text-center">
+                                    <a class="btn" href="<?php $this->permalink() ?>" rel="contents">
+                                        阅读全文 »
+                                    </a>
+                                </div>
                                 <footer class="post-footer">
                                     <div class="post-eof"></div>
                                 </footer>
