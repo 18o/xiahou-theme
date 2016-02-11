@@ -2,7 +2,7 @@
     /**
      * archive
      *
-     * @package archive
+     * @package custom
      */
 
 
@@ -82,3 +82,6 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
     </main>
 
 <?php $this->need('footer.php');?>
+    <script>
+        $(".menu-item-archives").addClass("menu-item-active");
+    </script>

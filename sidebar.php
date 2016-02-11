@@ -10,7 +10,7 @@
             </div>
             <nav class="site-state motion-element">
                 <div class="site-state-item site-state-posts">
-                    <a href="/archives">
+                    <a href="/archive.html">
                         <span class="site-state-item-count">
                             <?php
                             $this->widget('Widget_Stat')->to($stat);

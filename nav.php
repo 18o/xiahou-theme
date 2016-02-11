@@ -17,7 +17,7 @@
                     </a>
                 </li>
                 <li class="menu-item menu-item-archives">
-                    <a href="/activity.html" rel="section">
+                    <a href="/archive.html" rel="section">
                         <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />归档
                     </a>
                 </li>
