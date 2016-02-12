@@ -1,13 +1,42 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('header.php'); ?>
-<article class="post-container post-container--single">
-    <header class="post-header">
-        <h1 class="post-title"><?php $this->title() ?></h1>
-    </header>
-    <section class="post">
-        <p><?php $this->content(); ?></p>
-    </section>
-</article>
 
-<?php $this->need('comments.php'); ?>
-<?php $this->need('footer.php'); ?>
+<body>
+
+
+
+<div class="container one-collumn sidebar-position-left  page-archive  ">
+    <?php $this->need('nav.php');?>
+
+    <main id="main" class="main">
+        <div class="main-inner">
+            <div class="content-wrap">
+                <div id="content" class="content posts-expand">
+                    <section id="posts" class="posts-collapse">
+                        <header class="post-header">
+                        <h1 class="post-title">
+                            <a class="post-title-link" href="<?php $this->permalink() ?>">
+                                <?php $this->title() ?>
+                            </a>
+                        </h1>
+                            </header>
+                        <?php $this->content(); ?>
+                    </section>
+                    <?php //$this->need('pagination.php'); ?>
+                </div>
+                <?php $this->need('comments.php'); ?>
+            </div>
+
+            <div class="sidebar-toggle">
+                <div class="sidebar-toggle-line-wrap">
+                    <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+                    <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+                    <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+                </div>
+            </div>
+            <?php $this->need('sidebar.php');?>
+        </div>
+    </main>
+
+    <?php $this->need('footer.php');?>
+
