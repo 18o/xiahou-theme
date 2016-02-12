@@ -5,8 +5,12 @@
             <div class="site-author motion-element">
                 <img class="site-author-image" src="<?php $this->options->themeUrl('public/img/7539841.jpeg')?>"
                      alt="IIssNan" />
-                <p class="site-author-name">夏侯仲达</p>
-                <p class="site-description motion-element">我得到的都是侥幸 我失去的都是人生</p>
+                <p class="site-author-name">
+                    <?php echo $this->options->title;?>
+                </p>
+                <p class="site-description motion-element">
+                    <?php echo $this->options->description;?>
+                </p>
             </div>
             <nav class="site-state motion-element">
                 <div class="site-state-item site-state-posts">
