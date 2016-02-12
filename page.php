@@ -3,26 +3,23 @@
 
 <body>
 
-
-
 <div class="container one-collumn sidebar-position-left  page-archive  ">
     <?php $this->need('nav.php');?>
 
     <main id="main" class="main">
         <div class="main-inner">
             <div class="content-wrap">
-                <div id="content" class="content posts-expand">
-                    <section id="posts" class="posts-collapse">
-                        <header class="post-header">
+                <div id="content" class=" posts-expand">
+                    <header class="post-header">
                         <h1 class="post-title">
                             <a class="post-title-link" href="<?php $this->permalink() ?>">
                                 <?php $this->title() ?>
                             </a>
                         </h1>
-                            </header>
+                    </header>
+                    <div class="post-body">
                         <?php $this->content(); ?>
-                    </section>
-                    <?php //$this->need('pagination.php'); ?>
+                    </div>
                 </div>
                 <?php $this->need('comments.php'); ?>
             </div>
