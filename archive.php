@@ -60,7 +60,6 @@ $this->need('header.php');
                     </section>
                     <?php $this->need('pagination.php'); ?>
                 </div>
-                <?php $this->need('comments.php'); ?>
             </div>
 
             <div class="sidebar-toggle">

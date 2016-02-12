@@ -75,7 +75,6 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
                     </section>
                     <?php //$this->need('pagination.php'); ?>
                 </div>
-                <?php $this->need('comments.php'); ?>
             </div>
 
             <div class="sidebar-toggle">

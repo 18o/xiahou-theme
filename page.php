@@ -21,7 +21,6 @@
                         <?php $this->content(); ?>
                     </div>
                 </div>
-                <?php $this->need('comments.php'); ?>
             </div>
 
             <div class="sidebar-toggle">
