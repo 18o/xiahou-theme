@@ -4,11 +4,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
 ?>
 
-
 <body>
-
-
-
 <div class="container one-collumn sidebar-position-left  page-archive  ">
     <?php $this->need('nav.php');?>
 

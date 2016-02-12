@@ -1,11 +1,5 @@
 <?php
-$current_page = $this->getCurrentPage();
-$total_page = $this->getTotalPage();
-
-?>
-
-
-<?php
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->pageNav(
    '<i class="fa fa-angle-left"></i>',
    '<i class="fa fa-angle-right"></i>',
