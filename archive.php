@@ -7,7 +7,6 @@ $this->need('header.php');
 <body>
 <div class="container one-collumn sidebar-position-left  page-archive  ">
     <?php $this->need('nav.php');?>
-
     <main id="main" class="main">
         <div class="main-inner">
             <div class="content-wrap">
@@ -26,21 +25,16 @@ $this->need('header.php');
                             </h2>
                         </div>
 
-                        <?php 
+                        <?php
                         if ($this->have()):
                             while($this->next()):
                         ?>
                                 <article class="post post-type-normal">
                                     <header class="post-header">
-
                                         <h1 class="post-title">
-
                                             <a class="post-title-link" href="<?php $this->permalink() ?>" >
-
                                                 <span><?php $this->title() ?></span>
-
                                             </a>
-
                                         </h1>
 
                                         <div class="post-meta">
@@ -53,12 +47,10 @@ $this->need('header.php');
                                 </article>
                             <?php endwhile; ?>
                         <?php else: ?>
-                            <article class="post  post-type-normal">
-                                <h2 class="post-title"><?php _e('没有找到内容'); ?></h2>
-                            </article>
+                            <article class="post  post-type-normal"></article>
                         <?php endif; ?>
                     </section>
-                    <?php $this->need('pagination.php'); ?>
+                    <?php if ($this->have()){$this->need('pagination.php');}  ?>
                 </div>
             </div>
 
@@ -70,7 +62,7 @@ $this->need('header.php');
                 </div>
             </div>
 
-            <?php $this->need('sidebar.php');?>
+            <?php if ($this->have()){$this->need('sidebar.php');}?>
 
         </div>
     </main>
