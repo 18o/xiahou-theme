@@ -56,4 +56,13 @@ function themeConfig($form) {
     );
     $form->addInput($friends);
 
+	$piwik = new Typecho_Widget_Helper_Form_Element_Textarea(
+        'piwik',
+        NULL,
+        NULL,
+        _t('piwik统计代码'),
+        _t('piwik统计代码')
+    );
+    $form->addInput($piwik);
+
 }

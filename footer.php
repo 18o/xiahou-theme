@@ -41,6 +41,9 @@
 <script type="text/javascript" src="<?php $this->options->themeUrl('public/js/highlight.min.js')?>"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script type="text/javascript"  src="<?php $this->options->themeUrl('/vendors/ua-parser-js/dist/ua-parser.min.js')?>"></script>
-<?php $this->footer(); ?>
+<?php
+$this->footer();
+echo $this->options->piwik;
+?>
 </body>
 </html>
