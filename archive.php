@@ -6,7 +6,7 @@ $this->need('header.php');
 
 <body>
 <div class="container one-collumn sidebar-position-left  page-archive  ">
-    <?php $this->need('nav.php');?>
+    <?php if ($this->have()): $this->need('nav.php');?>
     <main id="main" class="main">
         <div class="main-inner">
             <div class="content-wrap">
@@ -26,7 +26,6 @@ $this->need('header.php');
                         </div>
 
                         <?php
-                        if ($this->have()):
                             while($this->next()):
                         ?>
                                 <article class="post post-type-normal">
@@ -46,11 +45,10 @@ $this->need('header.php');
                                     </header>
                                 </article>
                             <?php endwhile; ?>
-                        <?php else: ?>
-                            <article class="post  post-type-normal"></article>
-                        <?php endif; ?>
+
                     </section>
-                    <?php if ($this->have()){$this->need('pagination.php');}  ?>
+
+                    <?php $this->need('pagination.php');  ?>
                 </div>
             </div>
 
@@ -62,7 +60,7 @@ $this->need('header.php');
                 </div>
             </div>
 
-            <?php if ($this->have()){$this->need('sidebar.php');}?>
+            <?php $this->need('sidebar.php');?>
 
         </div>
     </main>
@@ -71,3 +69,12 @@ $this->need('header.php');
 <script>
     $(".menu-item-archives").addClass("menu-item-active");
 </script>
+<?php else: ?>
+    <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="https://iios.net/" homePageName="3秒后自动回到首页"></script>
+    <script>
+        function jumpurl(){
+  location='https://iios.net/';
+}
+setTimeout('jumpurl()',3000);
+</script>
+<?php endif; ?>
