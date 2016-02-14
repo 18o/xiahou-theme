@@ -69,12 +69,7 @@ $this->need('header.php');
 <script>
     $(".menu-item-archives").addClass("menu-item-active");
 </script>
-<?php else: ?>
-    <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="https://iios.net/" homePageName="3秒后自动回到首页"></script>
-    <script>
-        function jumpurl(){
-  location='/';
-}
-setTimeout('jumpurl()',3000);
-</script>
-<?php endif; ?>
+<?php else:
+$this->need('404.php');
+endif;
+?>
