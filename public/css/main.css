@@ -1941,7 +1941,7 @@ body {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 1260px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -1997,7 +1997,7 @@ body {
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 1260px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2013,7 +2013,7 @@ body {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: 1000px;
   background: #fff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2050,7 +2050,7 @@ body {
   display: none;
 }
 .footer-inner {
-  width: 960px;
+  width: 1260px;
 }
 .footer-inner:before {
   content: " ";
