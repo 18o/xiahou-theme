@@ -4,7 +4,7 @@
         <section class="site-overview sidebar-panel  sidebar-panel-active ">
             <div class="site-author motion-element">
                 <img class="site-author-image" src="<?php $this->options->themeUrl('public/img/7539841.jpeg')?>"
-                     alt="IIssNan" />
+                     alt="夏侯仲达" />
                 <p class="site-author-name">
                     <?php echo $this->options->title;?>
                 </p>
