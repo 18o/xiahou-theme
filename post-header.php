@@ -28,7 +28,7 @@
         </span>
 
           <span class="post-comments-count">&nbsp; | &nbsp;
-            <a href="">
+            <a href="<?php $this->permalink() ?>#comments">
                 <span class="post-comments-count ds-thread-count">
                     <?php $this->commentsNum('没有评论', '1 条评论', '%d 条评论'); ?>
                 </span>
