@@ -35,7 +35,7 @@
             </a>
           </span>
 
-         <span id="/2015/questions-in-writing/" class="leancloud_visitors">
+         <span class="leancloud_visitors">
            &nbsp; | &nbsp;
            <span class="post-meta-item-icon">
              <i class="fa fa-eye"></i>
@@ -44,7 +44,6 @@
            <span class="leancloud-visitors-count">
                <?php
                     echo post_views($this->cid);
-
                ?>
            </span>
           </span>
