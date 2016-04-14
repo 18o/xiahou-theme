@@ -31,7 +31,7 @@
             <a href="">
                 <span class="post-comments-count ds-thread-count">
                     <?php
-                    $commentNum = $this->commentNum();
+                    $commentNum = $this->commentsNum();
                     echo is_null($commentNum) ? 0 : $commentNum;
                     ?>
                     条评论
