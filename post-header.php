@@ -30,7 +30,7 @@
           <span class="post-comments-count">&nbsp; | &nbsp;
             <a href="">
                 <span class="post-comments-count ds-thread-count">
-                    <?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?>
+                    <?php $this->commentsNum('没有评论', '1 条评论', '%d 条评论'); ?>
                 </span>
             </a>
           </span>
