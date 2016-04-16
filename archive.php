@@ -45,7 +45,6 @@ $this->need('header.php');
                                     </header>
                                 </article>
                             <?php endwhile; ?>
-
                     </section>
 
                     <?php $this->need('pagination.php');  ?>
