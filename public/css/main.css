@@ -1198,7 +1198,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 25px 0;
   color: #999;
   font-size: 12px;
   text-align: center;
@@ -1241,7 +1241,7 @@ pre .javascript .function {
   }
 }
 .post-more-link {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 .post-more-link .btn {
   color: #555;
@@ -1293,7 +1293,7 @@ pre .javascript .function {
 }
 .posts-expand .post-eof {
   display: block;
-  margin: 80px auto 60px;
+  margin: 36px auto;
   width: 8%;
   height: 1px;
   background: #ccc;
