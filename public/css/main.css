@@ -2013,7 +2013,7 @@ body {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 900px;
+  width: 800px;
   background: #fff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2050,7 +2050,7 @@ body {
   display: none;
 }
 .footer-inner {
-  width: 1260px;
+  width: 1060px;
 }
 .footer-inner:before {
   content: " ";
